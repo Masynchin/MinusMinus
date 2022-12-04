@@ -1,4 +1,4 @@
-.PHONY: primes triangle spiral
+.PHONY: primes triangle spiral numbers
 
 primes:
 	g++ ./primes/main.cpp -o ./main && ./main
@@ -8,3 +8,6 @@ triangle:
 
 spiral:
 	g++ ./spiral/main.cpp -o ./main && ./main
+
+numbers:
+	g++ ./numbers/main.cpp -o ./main && ./main
